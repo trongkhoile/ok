@@ -1,0 +1,23 @@
+var sohocsinh = prompt("Nhap so hoc sinh :")
+class Candidate {
+    
+  constructor(ma,ten,ngay,thang,diemtoan,diemvan,diemanh) {
+
+    this.ma = ma;
+    this.ten = ten;
+    this.ngay = ngay;
+    this.thang = thang;
+    this.diemtoan= diemtoan;
+    this.diemvan= diemvan;
+    this.diemanh= diemanh;
+  }
+}
+var mangchuacachocsinh = []
+for(var i =1 ; i <= Number(sohocsinh);i++){
+let hs = new Candidate(prompt("ma : "),prompt("ten : "), prompt("ngay : "),prompt("thang : "),prompt("diemtoan:"),prompt("diemvan:"),prompt("diemanh:")) 
+mangchuacachocsinh.push(hs)
+}
+for (var i=0 ; i< mangchuacachocsinh.length;i++){
+   // phần check tự làm nhé
+} 
+console.log(mangchuacachocsinh)
